@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Gustavo Alcantara Guerrero">
+    <title>Ordenador de Serie | Grupo El Comercio</title>
+    <link rel="stylesheet" href="Estilos/Estilos.css">
+    <link rel="icon" type="image/png" href="Icono.jpg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffc404"/>
+</head>
+
+<body>
+    <div class="Todo">
+
+        <h2 align="center">Ordenador de Serie</h2>
+
+        <p>Por favor ingrese uno por uno los números enteros a ordenar presionando el botón "Ingresar" cada vez que ingrese un número en el campo de texto.<br>Tome en cuenta que los números ingresados no deben repetirse.</b></p><br>
+        
+        <div class="Datos">
+
+            <input type="number" id="numero" align="center" placeholder="Ingresar número" onfocus="this.value=''"> <!-- Input para ingresar números -->
+
+            <input type="button" value="Ingresar" onclick="ingresar()"> <!-- Botón para ingresar números -->
+
+            <div id="Mostrar_conjunto"></div><br> <!-- Div para mostrar datos ingresados -->
+
+            <p align="left">Presione "Ordenar" para mostrar los números de forma ascendente.<br>Precione "Limpiar" para borrar los datos.</p>
+
+            <input type="button" value="Ordenar" onclick="ordenar()"> <!-- Botón para ordenar números -->
+
+            <input type="button" value="Limpiar" onclick="limpiar()"> <!-- Botón para limpiar datos -->
+
+            <div id="Mostrar_orden"></div><br><br> <!-- Div para mostrar datos ordenados -->
+
+        </div>
+
+    </div>
+
+</body>
+    <script src="Js/Funciones.js"></script>     
+</html>

@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Geog-MdIt;
+}
+
+@font-face{
+	font-family: Geog-MdIt;
+	src: url(../Font/Geog-MdIt.otf);
+}
+
+.Todo{
+	width: 900px;
+	margin: auto;
+	background-color: #ffc404;
+	border-radius: 20px;
+}
+
+h2{
+	font-size: 30px;
+	padding: 20px;
+}
+
+p{
+	font-size: 20px;
+	margin: 5px 30px 5px 30px;
+}
+
+.Datos{
+	text-align: center;
+}
+
+input{
+	font-size: 17px;
+	padding: 5px;
+	margin: 10px;
+}
+
+#Mostrar_conjunto, #Mostrar_orden{
+	width: 90%;
+	height: 75px;
+	margin: auto;
+	background-color: #ffedb3;
+	border-radius: 20px;
+	font-size: 25px;
+	margin-top: 20px;
+	box-shadow: 1px 1px 1px 1px #222 inset;
+}
+
+/* Entre 230px y 480px */
+	@media only screen and (max-width: 480px) and (min-width: 320px) {
+		.Todo{
+			width: 90%;
+		}
+		p{
+			font-size: 15px;
+		}
+		input{
+			font-size: 15px;
+		}
+		#Mostrar_conjunto, #Mostrar_orden{
+			font-size: 20px;
+		}
+	}

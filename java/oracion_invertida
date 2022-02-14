@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class GustavoAlcantarG {
+    public static void main(String args[]) {
+        
+      	String invertido="";
+    	int contar=0;
+ 	
+    	Scanner entrada = new Scanner(System.in);
+    
+    	System.out.print("Ingrese una oración a invertir: ");
+    
+		String cadena = entrada.nextLine();  
+      
+        String array [] = cadena.split(" ");
+      
+        for(int i=array.length-1; i>=0; i--){
+           invertido = invertido + " " + array[i];
+        }
+    
+        System.out.println("La oración invertida es: " + invertido);
+    }
+}

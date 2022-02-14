@@ -1,0 +1,43 @@
+import java.util.*;
+
+public class GustavoAlcantaraG {
+    public static void main(String args[]) {
+        
+        Scanner entrada = new Scanner(System.in);
+        
+        int a=0, e=0, i=0, o=0, u=0, total_vocales;
+        
+        System.out.print("Ingrese cadena de texto: ");
+        
+        String cadena = entrada.nextLine();
+         
+        for(int y=0; y<cadena.length(); y++){
+        
+        	if(cadena.charAt(y)=='a' || cadena.charAt(y)=='A'){
+        		a++;
+        	}
+        	if(cadena.charAt(y)=='e' || cadena.charAt(y)=='E'){
+        		e++;
+        	}
+        	if(cadena.charAt(y)=='i' || cadena.charAt(y)=='I'){
+        		i++;
+        	}
+        	if(cadena.charAt(y)=='o' || cadena.charAt(y)=='O'){
+        		o++;
+        	}
+        	if(cadena.charAt(y)=='u' || cadena.charAt(y)=='U'){
+        		u++;
+        	}
+        }
+      
+      	total_vocales = a+e+i+o+u;
+      
+      	System.out.println("Total vocales: " + total_vocales);
+        
+        System.out.println("Vocal A: " + a);
+        System.out.println("Vocal E: " + e);
+        System.out.println("Vocal I: " + i);
+        System.out.println("Vocal O: " + o);
+        System.out.println("Vocal U: " + u);
+    }
+}

@@ -1,0 +1,35 @@
+import java.util.*;
+
+public class GustavoAlcantaraG {
+    public static void main(String args[]) {
+        Scanner entrada = new Scanner(System.in);
+        
+        int monto=0, cien=0, cincuenta=0, treinta=0, veinte=0, diez=0, uno=0;
+        
+        System.out.print("Ingrese monto a retirar: ");
+        monto = entrada.nextInt();
+         
+        cien = monto / 100;
+        System.out.println("Billetes de 100: " + cien);
+        
+        cien = monto % 100;
+        cincuenta = cien / 50;
+        System.out.println("Billetes de 50: " + cincuenta);
+        
+        cincuenta = cien % 50;
+        treinta = cincuenta / 30;
+        System.out.println("Billetes de 30: " + treinta);
+        
+        treinta = cincuenta % 30;
+        veinte = treinta / 20;
+        System.out.println("Billetes de 20: " + veinte);
+        
+        veinte = treinta % 20;
+        diez = veinte / 10;
+        System.out.println("Billetes de 10: " + diez);
+        
+        diez = veinte % 10;
+        uno = diez / 1;
+        System.out.println("Monedas de 1: " + uno);
+    }
+}
