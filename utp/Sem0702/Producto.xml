@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ListaProductos>
+    <Productos>
+        <Producto>
+            <codigo>PROD001</codigo>
+            <nombreprod>Gatorade de 500ml</nombreprod>
+            <precio>2.50</precio>
+            <stock>20</stock>
+        </Producto>
+        <Producto>
+            <codigo>PROD002</codigo>
+            <nombreprod>Harina Preparada Leonor de 1kg</nombreprod>
+            <precio>8.50</precio>
+            <stock>12</stock>
+        </Producto>
+        <Producto>
+            <codigo>PROD003</codigo>
+            <nombreprod>Cerceza Pilsen six pack 450ml</nombreprod>
+            <precio>22.50</precio>
+            <stock>18</stock>
+        </Producto>
+        <Producto>
+            <codigo>PROD004</codigo>
+            <nombreprod>Gaseosa Cola Real 3lt</nombreprod>
+            <precio>6.50</precio>
+            <stock>9</stock>
+        </Producto>
+    </Productos>
+</ListaProductos>
